@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>Работа с файлом</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <form action="cgi-bin/postdecode.cgi" enctype="multipart/form-data" method="post">
+            <p>Name: <input type="text" name="Name" value=""></p>
+            <p>Box: <input type="checkbox" name="Box" value="1" checked></p>
+            <p>Area: <textarea name="Area" value="" wrap="Physical">Какой-то текс </textarea></p>
+            <input type="file" name="file">
+            <p><input type="submit"></p>
+        </form>
+    </body>
+</html>
